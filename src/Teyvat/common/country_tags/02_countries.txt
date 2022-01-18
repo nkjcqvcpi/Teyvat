@@ -1,4 +1,4 @@
-MON = "countries/Mondstadt.txt"
+MST = "countries/Mondstadt.txt"
 LIY = "countries/Liyue.txt"
 INZ = "countries/Inazuma.txt"
 SMR = "countries/Sumeru.txt"
