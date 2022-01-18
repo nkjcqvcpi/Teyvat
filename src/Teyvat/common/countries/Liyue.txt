@@ -1,0 +1,6 @@
+# Liyue
+
+graphical_culture = liyue_gfx
+graphical_culture_2d = liyue_2d
+
+color = {247 214 98}

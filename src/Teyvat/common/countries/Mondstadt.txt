@@ -1,0 +1,6 @@
+# Mondstadt
+
+graphical_culture = mondstadt_gfx
+graphical_culture_2d = mondstadt_2d
+
+color = {162 246 206}

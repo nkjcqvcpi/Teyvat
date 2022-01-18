@@ -1,0 +1,6 @@
+# Natlan
+
+graphical_culture = natlan_gfx
+graphical_culture_2d = natlan_2d
+
+color = {253 170 107}

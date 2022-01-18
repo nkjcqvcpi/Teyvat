@@ -1,0 +1,7 @@
+MON = "countries/Mondstadt.txt"
+LIY = "countries/Liyue.txt"
+INZ = "countries/Inazuma.txt"
+SMR = "countries/Sumeru.txt"
+FNT = "countries/Fontaine.txt"
+NAT = "countries/Natlan.txt"
+SNE = "countries/Snezhnaya.txt"

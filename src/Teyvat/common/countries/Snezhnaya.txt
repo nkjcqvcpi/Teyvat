@@ -1,0 +1,6 @@
+# Snezhnaya
+
+graphical_culture = snezhnaya_gfx
+graphical_culture_2d = snezhnaya_2d
+
+color = {202 255 255}

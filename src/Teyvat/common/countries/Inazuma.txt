@@ -1,0 +1,6 @@
+# Inazuma
+
+graphical_culture = inazuma_gfx
+graphical_culture_2d = inazuma_2d
+
+color = {224 185 255}

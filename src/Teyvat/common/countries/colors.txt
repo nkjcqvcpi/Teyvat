@@ -1,0 +1,36 @@
+#reload countrycolors
+
+MON = {
+	color = rgb { 162 246 206 }
+	color_ui = rgb { 134 216 178 }
+}
+
+LIY = {
+	color = rgb { 247 214 98 }
+	color_ui = rgb { 239 184 97 }
+}
+
+INZ = {
+	color = rgb { 224 185 255 }
+	color_ui = rgb { 204 155 248 }
+}
+
+SMR = {
+	color = rgb { 178 234 45 }
+	color_ui = rgb { 151 209 64 }
+}
+
+FNT = {
+	color = rgb { 19 228 252 }
+	color_ui = rgb { 117 202 248 }
+}
+
+NAT = {
+	color = rgb { 253 170 107 }
+	color_ui = rgb { 229 105 53 }
+}
+
+SNE = {
+	color = rgb { 202 255 255 }
+	color_ui = rgb { 186 252 254 }
+}

@@ -1,0 +1,6 @@
+# Fontaine
+
+graphical_culture = fontaine_gfx
+graphical_culture_2d = fontaine_2d
+
+color = {19 228 252}

@@ -1,0 +1,6 @@
+# Sumuru
+
+graphical_culture = sumuru_gfx
+graphical_culture_2d = sumuru_2d
+
+color = {178 234 45}

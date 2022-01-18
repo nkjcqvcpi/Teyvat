@@ -1,0 +1,240 @@
+capital = 439
+
+oob = "SMR_1936"
+
+
+set_stability = 0.6
+set_war_support = 0.1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+recruit_character = SMR_lord_linlithgow
+recruit_character = SMR_v_d_savarkar
+recruit_character = SMR_p_krishna_pillai
+recruit_character = SMR_b_p_sitaramayya
+recruit_character = SMR_noel_beresfordpeirse
+recruit_character = SMR_frank_messervy
+recruit_character = SMR_douglas_gracey
+recruit_character = SMR_herbert_fitzherbert
+recruit_character = SMR_w_h_gould_bradford
+recruit_character = SMR_william_e_parry
+recruit_character = SMR_mohan_singh
+recruit_character = SMR_mehar_singh
+recruit_character = SMR_reginald_savory
+recruit_character = SMR_bruce_w_mcpherson
+recruit_character = SMR_aspy_merwan_engineer
+recruit_character = SMR_arjan_singh_vibhusan
+recruit_character = SMR_subroto_mukherjee
+recruit_character = SMR_arthur_a_barrett
+recruit_character = SMR_bhaskar_soman
+recruit_character = SMR_rajendra_prasad
+recruit_character = SMR_ravindra_darshan_singh
+recruit_character = SMR_ram_dass_katari
+recruit_character = SMR_archibald_wavell
+recruit_character = SMR_louis_mountbatten
+recruit_character = SMR_kodandera_cariappa
+recruit_character = SMR_ram_singh_thakur
+recruit_character = SMR_homi_j_bhabha
+recruit_character = SMR_bahadur_jayla_of_khoch_bahur
+recruit_character = SMR_anyang_bhula
+recruit_character = SMR_john_edward_golightly
+recruit_character = SMR_bhimrao_ramji_ambedkar
+recruit_character = SMR_chakravarti_rajagopalachari
+recruit_character = SMR_karam_singh_mann
+recruit_character = SMR_agha_khan_iii
+recruit_character = SMR_subhas_chanda_bose
+recruit_character = SMR_mahatma_mohandas_gandhi
+recruit_character = SMR_sir_mohammed_iqbal
+recruit_character = SMR_john_mathai
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	recruit_character = SMR_lakshmi_sahgal
+	recruit_character = SMR_orde_wingate
+	recruit_character = SMR_kodandera_madappa_cariappa
+	recruit_character = SMR_kodandera_subayya_thimayya
+	recruit_character = SMR_jayanto_nath_chaudhuri
+}
+
+
+if = {
+	limit = {
+		not = { has_dlc =  "Man the Guns" }
+	}
+	set_technology = {
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_ideas = {
+		SMR_princely_states
+		SMR_marginalized_muslim_community
+		SMR_agrarian_society
+		SMR_risk_of_famine
+	}
+
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+set_convoys = 20
+
+set_cosmetic_tag = SMR_UK # British Raj
+
+1939.1.1 = {
+	
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		complete_national_focus = SMR_lessons_of_the_great_war
+		complete_national_focus = SMR_vickers_berthier_gun
+		complete_national_focus = SMR_army_motorization
+		complete_national_focus = SMR_british_pilot_training
+		complete_national_focus = SMR_great_indian_peninsula_railway
+		complete_national_focus = SMR_east_india_railways
+		complete_national_focus = SMR_found_scindia_shipyard
+		complete_national_focus = SMR_industrial_expansion
+		complete_national_focus = SMR_ishapore_arsenal
+	}
+
+	add_political_power = 1198
+	add_command_power = 100
+	oob = "SMR_1939"
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+	add_ideas = {
+		#laws
+		volunteer_only
+		low_economic_mobilisation
+	}
+
+	
+	set_technology = {
+		
+		early_fighter = 1
+		fighter1 = 1
+		#doctrines
+		#Air
+		force_rotation = 1
+		fighter_baiting = 1
+		grand_battle_plan = 1
+
+		trench_warfare = 1
+		prepared_defense = 1
+		battlefleet_concentration = 1
+		subsidiary_carrier_role = 1
+		convoy_sailing = 1
+		convoy_escorts = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		decimetric_radar = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 17
+	fascism = 2
+	communism = 1
+	neutrality = 80
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Noor Inayat Khan"
+		GFX = GFX_portrait_noor_inayat_khan
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SMR }
+	}
+}

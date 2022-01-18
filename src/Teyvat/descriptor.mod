@@ -1,0 +1,15 @@
+version="0.0.1"
+tags={
+	"Map"
+	"Military"
+	"National Focuses"
+	"Sound"
+	"Technologies"
+	"Ideologies"
+	"Graphics"
+	"Gameplay"
+	"Events"
+}
+name="提瓦特"
+supported_version="1.11.4"
+remote_file_id="2718670810"
