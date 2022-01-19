@@ -8,7 +8,7 @@ class Generator:
 
     def __init__(self, file, lang):
         self.lang = self.langs[lang]
-        self.quotes = pd.read_excel(file, sheet_name=self.lang, header=None)
+        self.quotes = pd.read_excel(file, sheet_name=self.lang)
 
     def generate(self, path, fn=None):
         if not fn:
