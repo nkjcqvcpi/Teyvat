@@ -1,0 +1,162 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "Genshin Impact Main Theme 原神.ogg"
+	volume = 0.65
+}
+
+# General Peace:
+music = {
+	name = "general_peace_1"
+	file = "A Day in Mondstadt  蒙德的一日.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_2"
+	file = "Liyue 璃月.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_3"
+	file = "Inazuma 稻妻.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "general_war_1"
+	file = "Imminent Triumph 将至的凯歌.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_war_2"
+	file = "Blossoms Across the Valley 幽谷多芳草.ogg"
+	volume = 0.65
+}
+
+
+# Allies Peace:
+music = {
+	name = "allies_peace_1"
+	file = "Hanachirusato 华散之缘.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_peace_2"
+	file = "Streets of Elegance 风雅之里.ogg"
+	volume = 0.65
+}
+
+
+# Allies War:
+music = {
+	name = "allies_war_1"
+	file = "The Mysterious Islands 神秘之岛.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_war_2"
+	file = "Fiery Pursuit 驱敌逐北.ogg"
+	volume = 0.65
+}
+
+
+# Axis Peace:
+music = {
+	name = "axis_peace_1"
+	file = "Contemplation in Snow 白皑中的冥想.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_peace_2"
+	file = "Bard's Adventure 诗人的工作.ogg"
+	volume = 0.65
+}
+
+
+# Axis War:
+music = {
+	name = "axis_war_1"
+	file = "Charge! Fearless Warriors 冲啊！无畏的勇士.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_2"
+	file = "Make Haste, Partner 速度加快.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_3"
+	file = "Knights of Favonius 西风骑士团.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_4"
+	file = "Welp, Didn't Expect That 呃，这可没想到….ogg"
+	volume = 0.65
+}
+
+
+# Comintern Peace:
+
+music = {
+	name = "comintern_peace_1"
+	file = "Lovers' Oath 蒲苇如丝.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_2"
+	file = "Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间).ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_3"
+	file = "A Transparent Moon (Liuli Pavilion) 晶莹可掇 (琉璃亭).ogg"
+	volume = 0.65
+}
+
+# Comintern War:
+
+music = {
+	name = "comintern_war_1"
+	file = "Rapid as Wildfires 疾如猛火.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_2"
+	file = "Chasing the Torrents 激流逐浪.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_3"
+	file = "Gallant Challenge 鲜衣游侠.ogg"
+	volume = 0.65
+}
+
+# La Resistance:
+
+music = {
+	name = "resistance_spanish"
+	file = "The Wolf Boy 狼般的少年.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_french"
+	file = "Tale of the Yakshas 夜叉的回叙.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_fascist"
+	file = "A Sparky Clash 火花的初遇.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_spying"
+	file = "Ominous Fandango 浮浪人的心机.ogg"
+	volume = 0.65
+}
